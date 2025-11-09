@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class coursework {
+class coursework {
 
     static Scanner input = new Scanner(System.in);
     static String[][] rooms = new String[0][6];
@@ -1046,4 +1046,5 @@ public class coursework {
         try { Thread.sleep(3000); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
         clearScreen();
     }
+
 }
